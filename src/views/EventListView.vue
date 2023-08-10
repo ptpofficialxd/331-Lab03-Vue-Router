@@ -56,8 +56,8 @@ const decreaseLimit = () => {
 </script> 
 
 <template>
-  <h1>Events For Good <button @click="increaseLimit">plus</button>
-    <button @click="decreaseLimit">minus</button>
+  <h1>Events For Good <button @click="decreaseLimit">-</button>
+    <button @click="increaseLimit">+</button>
     {{ limit }}
   </h1>
 
